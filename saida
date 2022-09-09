@@ -1,0 +1,15 @@
+Para gerar valores ou imprimir texto você pode usar o codigo WriteLine()
+
+exemplo : 
+
+// o codigo a seguir depois de executado ira mostrar a palavra ola.
+
+Console.WriteLine("ola");
+
+tambem é possivel fazer calculos matematicos ultilizando esse mesmo codigo.
+
+exemplo :
+
+// o codigo a seguir depois de executado ira mostrar o resultado da soma.
+
+Console.WriteLine(1 + 1);

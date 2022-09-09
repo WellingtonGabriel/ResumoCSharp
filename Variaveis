@@ -1,0 +1,46 @@
+Existem diferentes tipos de variaves em c# com diferentes propositos,exemplo :
+
+1 - int : armazena numeros inteiros, como 123 ou -123..
+
+2 - double : armazena numeros quebrados, como 9,99 ou -9,99
+
+3 - char : armazena caracteres únicos, como 'a' ou 'b',esses caracteres devem estar cercados de aspas simples
+
+4 - string : armazena texto,como "olá",esses textos devem estar cercados de aspas duplas
+
+5 - bool : armazena valores com dois estados,como verdadeiro ou falso
+
+exemplos :
+
+1 - int :
+
+// o código a seguir irá atribuir o valor 15 a variavel x,depois de executado ele irá mostrar o valor 15.
+
+int x = 15;
+Console.WriteLine(x);
+
+2 - double :
+
+// o código a seguir irá atribuir o valor 9,99 a variavel x,depois de executado ele irá mostrar o valor 9,99.
+
+double x = 9,99D;
+Console.WriteLine(x);
+
+3 - char :
+
+// o código a seguir irá mostrar a letra D depois de ser executado.
+
+char myLetter = 'D';
+
+4 - string :
+
+// o código a seguir irá atribuir o texto "yuu" a variavel nome,depois de executado ele irá mostrar ola´yuu.
+
+string nome = "yuu";
+Console.WriteLine("ola " + nome);
+
+5 - bool :
+
+// o código a seguir irá mostrar que algo é verdadeiro.
+
+bool myBool = true;

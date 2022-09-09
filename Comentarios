@@ -1,0 +1,21 @@
+Os comentários podem ser usados ​​para explicar o código,tambem podem ser usados para impedir a execução de um código,caso queira testar códigos alternativos.
+
+existem dois tipos de comentários,o primeiro tipo é o comentário de linha única,o segundo tipo é o comentário de várias linhas.
+
+1 - comentário de linha única :
+
+são usados duas barras (//) no inicio da frase para fazer o comentário de linha única.
+
+exemplo :
+
+// comentário
+
+2 - comentário de várias linhas :
+
+são usados uma barra (/) na esquerda e um asterisco (*) na direita no inicio da frase e no final da frase são usados um asterisco (*) na esquerda e uma barra (/) na direita.
+
+exemplo :
+
+/* o c# é uma das linguagens de
+programaçaõ mais populares do mundo,
+pois é fácil de aprender e simples de usar */

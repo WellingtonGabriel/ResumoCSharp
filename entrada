@@ -1,0 +1,14 @@
+diferente da saida que depois de ser executado mostra algo na tela,a entrada depois de ser executada nos permite iserir algo.
+
+exemplo :
+
+// no código a seguir o usuário pode inserir seu nome de usuario, que é armazenado na variável userName,depois de ser executado o código irá mostrar a seguinte frase : O nome de usuário é: aqui ira aparecer o nome que voce inseriu.
+
+// o código a seguir ira pedir para voce digitar seu nome de usuario,depois de digitar seu nome aperte a tecla Enter
+Console.WriteLine("Enter username:");
+
+// o código a seguir ira Criar uma variável do tipo string e ira obter a entrada do usuário e armazenar a variável
+string userName = Console.ReadLine();
+
+// o código a seguir ira exibir o valor da variável (userName), que exibirá o valor de entrada
+Console.WriteLine("Username is: " + userName);

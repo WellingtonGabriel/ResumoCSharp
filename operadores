@@ -1,0 +1,135 @@
+Os operadores são usados ​​para realizar operações em variáveis ​​e valores.
+
+os operadores são :
+
+1- adição
+
+é representado pelo simbolo (+) e serve para somar duas variaves
+
+exemplo :
+
+x + y
+
+2 - subtracão
+
+é representado pelo simbolo (-) e serve para subtrair uma variavel de outra
+
+exemplo :
+
+x - y
+
+3 - multiplicação
+
+é representado pelo simbolo (*) e serve para multiplicar duas variaves
+
+exemplo :
+
+x * y
+
+4 - divisão
+
+é representado pelo simbolo (/) e serve para dividir duas variaves
+
+exemplo :
+
+x / y
+
+5 - porcentagem
+
+é representado pelo simbolo (%) e serve para Retornar o resto da divisão
+
+exemplo :
+
+x % y
+
+6 - incremento
+
+é representado pelo simbolo (++) e serve para Aumentar o valor de uma variável em 1
+
+exemplo :
+
+x++
+
+7 - descremento
+
+é representado pelo simbolo (--) e serve para diminuir o valor de uma variável em 1
+
+exemplo :
+
+x--
+
+operadores de atribuição
+
+Os operadores de atribuição são usados ​​para atribuir valores a variáveis.
+
+exemplo :
+
+int x = 10;
+
+os operadores de atribuição são :
+
+1 : =
+
+exemplo :
+
+x = 5
+
+2 : +=
+
+exemplo :
+
+x += 3 ,ou seja,  x = x + 3
+
+3 : -=
+
+exemplo :
+
+x -= 3 ,ou seja, x = x - 3
+
+4 : *=
+
+exemplo :
+
+x *= 3 ,ou seja, x = x * 3
+
+5 : /=
+
+exemplo :
+
+x /= 3 ,ou seja, x = x / 3
+
+6 : %=
+
+exemplo :
+
+x %= 3 ,ou seja, x = x % 3
+
+7 : &=
+
+exemplo :
+
+x &= 3 ,ou seja, x = x & 3
+
+8 : |=
+
+exemplo :
+
+x |= 3 ,ou seja, x = x | 3
+
+9 : ^=
+
+exemplo :
+
+x ^= 3 ,ou seja, x = x ^ 3
+
+10 : >>=
+
+exemplo :
+
+x >>= 3 ,ou seja, x = x >> 3
+
+11 : <<=
+
+exemplo :
+
+x <<= 3 ,ou seja, x = x << 3

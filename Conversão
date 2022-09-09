@@ -1,0 +1,55 @@
+Em C#, existem dois tipos de conversão :
+
+1 - Casting implícito (automaticamente) - convertendo um tipo menor em um tamanho de tipo maior
+char-> int-> long-> float->double
+
+2 - Casting explícito (manualmente) - convertendo um tipo maior em um tipo de tamanho menor
+double-> float-> long-> int->char
+
+exemplos :
+
+1 - Casting implícito :
+
+// o código a seguir irá converter automaticamente uma variavel do tipo int para double.
+
+int myInt = 9;
+double myDouble = myInt;
+
+Console.WriteLine(myInt);
+Console.WriteLine(myDouble);
+
+2 - Casting explícito :
+
+// o código a seguir irá converter manualmente uma variavel do tipo double para int.
+
+double myDouble = 9.78;
+int myInt = (int) myDouble;
+
+Console.WriteLine(myDouble);
+Console.WriteLine(myInt);
+
+Métodos de conversão de tipo
+
+Há tambem outros tipos de conversão,ultilizando o código convert.to...como por exemplo : Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32(int) e Convert.ToInt64(long):
+
+exemplos : 
+
+// o código a seguir irá converter uma variavel do tipo int para string.
+
+int myInt = 10;
+Console.WriteLine(Convert.ToString(myInt));
+
+//o código a seguir irá converter uma variavel do tipo int para double.
+
+int myInt = 10;
+Console.WriteLine(Convert.ToDouble(myInt));
+
+// o código a seguir irá converter uma variavel do tipo double para int.
+
+double myDouble = 5.25;
+Console.WriteLine(Convert.ToInt32(myDouble));
+
+// o código a seguir irá converter uma variavel do tipo boll para string.
+
+bool myBool = true;
+Console.WriteLine(Convert.ToString(myBool));
