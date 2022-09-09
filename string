@@ -1,0 +1,74 @@
+Strings são usadas para armazenar texto.
+
+exemplo :
+
+// o código a seguir ira criar uma variável Nome do tipo string e atribuir "yuu" a ela
+
+string nome = "yuu";
+
+Outros métodos
+
+para exibir a string em maiúscula use o código ToUpper() ou para exibir em minúscula use o código ToLower()
+
+Exemplos : 
+
+maiúscula :
+
+// o código a seguir depois de ser executado ira mostrar a palavra ola em maiúscula = OLA
+
+string txt = "ola";
+Console.WriteLine(txt.ToUpper());
+
+minúscula :
+
+// o código a seguir depois de ser executado ira mostrar a palavra ola em minúscula = ola
+
+string txt = "ola";
+Console.WriteLine(txt.ToLower());   // Outputs "hello world"
+
+Concatenação de String
+
+O operador (+) pode ser usado entre as strings para combiná-las. Isso é chamado de concatenação :
+
+Exemplo :
+
+// o código a seguir ira juntar o nome e o sonbrtenome e exibir o nome completo.
+
+string nome = "yuu ";
+string sobrenome = "otosaka";
+string nomeCompleto = nome + sobrenome;
+Console.WriteLine(nomeCompleto);
+
+outra alternativa para concaternar strings é ultilizando o código string.Concat()
+
+exemplo :
+
+string nome = "yuu ";
+string sobrenome = "otosaka";
+string nomeCompleto = string.Concat(nome, sobrenome);
+Console.WriteLine(nomeCompleto);
+
+Interpolação de String
+
+Outra opção de concatenação de strings é a interpolação de strings , que substitui valores de variáveis ​​em espaços reservados em uma string.
+
+Exemplo
+
+string nome = "yuu";
+string sobrenome = "otosaka";
+string nomeCompleto = $"meu codNome completo é: {nome} {sobrenome}";
+Console.WriteLine(nomeCompleto);
+
+Caracteres especiais
+
+Como as strings devem ser escritas entre aspas, caso contrario ele gerará um erro :
+
+exemplo 
+
+string txt = "nós somos os chamados  "Vikings" do norte.";
+
+A solução para evitar esse problema é usar o caractere de escape de barra invertida .
+
+O caractere de escape de barra invertida (\) transforma caracteres especiais em caracteres de string:
+
+Os caracteres de escape são :
