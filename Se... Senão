@@ -1,0 +1,64 @@
+Condições e instruções if
+
+Menor que : a < b
+Menor ou igual a : a <= b
+Maior que : a > b
+Maior ou igual a : a >= b
+igual a a == b
+Diferente de : a != b
+
+declarações condicionais:
+
+Use if para especificar um bloco de código a ser executado, se uma condição especificada for verdadeira
+Use else para especificar um bloco de código a ser executado, se a mesma condição for falsa
+Use else ifpara especificar uma nova condição a ser testada, se a primeira condição for falsa
+Use switch para especificar muitos blocos alternativos de código a serem executados
+
+declaração if
+
+Use if para especificar um bloco de código a ser executado se uma condição for verdadeira.
+
+sintaxe :
+
+if (condiçaõ) 
+{
+  // bloco de código a ser executado se a condição for verdadeira
+}
+
+exemplo :
+
+// o codigo abaixo ira mostrar que 20 é maior que 18
+
+if (20 > 18) 
+{
+  Console.WriteLine("20 é maior que 18");
+}
+
+declaração else
+
+Use else para especificar um bloco de código a ser executado se a condição for falsa.
+
+Sintaxe :
+
+if (condição)
+{
+  // bloco de código a ser executado se a condição for verdadeira
+} 
+else 
+{
+  // bloco de código a ser executado se a condição for falsa
+}
+
+Exemplo :
+
+\\ ja que a condiçaõ 20 é menor que 18 é falsa,ele ira falar boa noite.
+
+int time = 20;
+if (time < 18) 
+{
+  Console.WriteLine("bom dia.");
+} 
+else 
+{
+  Console.WriteLine("boa noite.");
+}

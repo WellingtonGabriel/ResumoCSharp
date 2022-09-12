@@ -1,0 +1,19 @@
+O whileloop percorre um bloco de código desde que uma condição especificada seja True:
+
+Sintaxe :
+
+while (condição) 
+{
+  // bloco de código a ser executado
+}
+
+No exemplo abaixo, o código no loop será executado repetidamente, desde que uma variável (i) seja menor que 5:
+
+Exemplo :
+
+int i = 0;
+while (i < 5) 
+{
+  Console.WriteLine(i);
+  i++;
+}

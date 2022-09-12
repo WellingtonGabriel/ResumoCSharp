@@ -1,0 +1,149 @@
+Criar uma matriz
+
+Arrays são usados ​​para armazenar vários valores em uma única variável, em vez de declarar variáveis ​​separadas para cada valor.
+
+Para declarar um array, defina o tipo de variável com colchetes :
+
+string[] cars;
+
+Agora declaramos uma variável que contém um array de strings.
+
+Para inserir valores nele, podemos usar um literal de array - coloque os valores em uma lista separada por vírgulas, entre chaves:
+
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+Para criar um array de inteiros, você poderia escrever:
+
+int[] myNum = {10, 20, 30, 40};
+
+Acesse os elementos de um array
+
+Você acessa um elemento da matriz referindo-se ao número do índice.
+
+Esta instrução acessa o valor do primeiro elemento em cars :
+
+Exemplo :
+
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+Console.WriteLine(cars[0]);
+
+Alterar um elemento de matriz
+
+Para alterar o valor de um elemento específico, consulte o número do índice :
+
+Exemplo :
+
+cars[0] = "Opel";
+Exemplo
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+cars[0] = "Opel";
+Console.WriteLine(cars[0]);
+
+Comprimento da matriz
+
+Para descobrir quantos elementos um array possui, use a Lengthpropriedade:
+
+Exemplo :
+
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+Console.WriteLine(cars.Length);
+
+Loop através de uma matriz
+Você pode percorrer os elementos da matriz com o forloop e usar a Length propriedade para especificar quantas vezes o loop deve ser executado.
+
+O exemplo a seguir gera todos os elementos na matriz cars :
+
+Exemplo
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (int i = 0; i < cars.Length; i++) 
+{
+  Console.WriteLine(cars[i]);
+}
+
+O loop foreach
+Há também um foreachloop, que é usado exclusivamente para percorrer elementos em um array :
+
+Sintaxe :
+
+foreach (type variableName in arrayName) 
+{
+  // bloco de código a ser executado
+}
+
+O exemplo a seguir gera todos os elementos no array carsforeach , usando um loop:
+
+Exemplo :
+
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+foreach (string i in cars) 
+{
+  Console.WriteLine(i);
+}
+ 
+ Classificar matrizes
+
+Existem muitos métodos de array disponíveis, por exemplo Sort(), que classifica um array em ordem alfabética ou em ordem crescente:
+
+Exemplo
+// Sort a string
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+Array.Sort(cars);
+foreach (string i in cars)
+{
+  Console.WriteLine(i);
+}
+ 
+// Sort an int
+int[] myNumbers = {5, 1, 8, 9};
+Array.Sort(myNumbers);
+foreach (int i in myNumbers)
+{
+  Console.WriteLine(i);
+}
+
+Namespace System.Linq
+Outros métodos de array úteis, como Min, Maxe Sum, podem ser encontrados no System.Linqnamespace:
+
+Exemplo :
+
+using System;
+using System.Linq;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int[] myNumbers = {5, 1, 8, 9};
+      Console.WriteLine(myNumbers.Max());  // returns the largest value
+      Console.WriteLine(myNumbers.Min());  // returns the smallest value
+      Console.WriteLine(myNumbers.Sum());  // returns the sum of elements
+    }
+  }
+}
+ 
+ Outras maneiras de criar uma matriz
+
+Se você estiver familiarizado com C#, pode ter visto arrays criados com a palavra- newchave e talvez tenha visto arrays com um tamanho especificado também. Em C#, existem diferentes maneiras de criar uma matriz:
+
+// Create an array of four elements, and add values later
+string[] cars = new string[4];
+
+// Create an array of four elements and add values right away 
+string[] cars = new string[4] {"Volvo", "BMW", "Ford", "Mazda"};
+
+// Create an array of four elements without specifying the size 
+string[] cars = new string[] {"Volvo", "BMW", "Ford", "Mazda"};
+
+// Create an array of four elements, omitting the new keyword, and without specifying the size
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+Cabe a você qual opção você escolhe. Em nosso tutorial, muitas vezes usaremos a última opção, pois é mais rápida e fácil de ler.
+
+No entanto, você deve observar que, se você declarar um array e inicializá-lo posteriormente, deverá usar a new palavra-chave:
+
+// Declare an array
+string[] cars;
+
+// Add values, using new
+cars = new string[] {"Volvo", "BMW", "Ford"};
+

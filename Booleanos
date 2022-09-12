@@ -1,0 +1,20 @@
+Muitas vezes, na programação, você precisará de um tipo de dados que só pode ter um de dois valores, como:
+
+- SIM,NÃO
+- LIGADO,DESLIGADO
+- VERDADEIRO,FALSO
+
+nessa situação ultilizamos o boll,que pode assumir os valores true ou false.
+
+exemplo :
+
+bool isCSharpFun = true;
+bool isFishTasty = false;
+
+// saida verdadeira
+
+Console.WriteLine(isCSharpFun);
+
+ // Saída Falsa
+
+Console.WriteLine(isFishTasty);

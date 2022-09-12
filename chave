@@ -1,0 +1,78 @@
+Use a switch para selecionar um dos muitos blocos de código a serem executados.
+
+Sintaxe :
+
+switch(expresao) 
+{
+  case x:
+    // bloco de código
+    break;
+  case y:
+    // bloco de código
+    break;
+  default:
+    // bloco de código
+    break;
+}
+
+funcionamento :
+
+- A switch expressão é avaliada uma vez
+- O valor da expressão é comparado com os valores de cadacase
+- Se houver uma correspondência, o bloco de código associado é executado
+- As palavras-chave breake defaultserão descritas mais adiante neste capítulo
+- O exemplo abaixo usa o número do dia da semana para calcular o nome do dia da semana:
+
+Exemplo :
+
+int dia = 4;
+switch (dia) 
+{
+  case 1:
+    Console.WriteLine("segunda");
+    break;
+  case 2:
+    Console.WriteLine("terca");
+    break;
+  case 3:
+    Console.WriteLine("quarta");
+    break;
+  case 4:
+    Console.WriteLine("quinta");
+    break;
+  case 5:
+    Console.WriteLine("sexta");
+    break;
+  case 6:
+    Console.WriteLine("sabado");
+    break;
+  case 7:
+    Console.WriteLine("domingo");
+    break;
+}
+
+A palavra-chave pausa
+
+Quando o C# atinge uma palavra- break chave, ele sai do bloco switch.
+
+Isso interromperá a execução de mais código e teste de caso dentro do bloco.
+
+A palavra-chave padrão
+
+A default palavra-chave é opcional e especifica algum código a ser executado se não houver correspondência entre maiúsculas e minúsculas:
+
+Exemplo :
+
+int day = 4;
+switch (day) 
+{
+  case 6:
+    Console.WriteLine("hoje e sabado.");
+    break;
+  case 7:
+    Console.WriteLine("hoje e domingo.");
+    break;
+  default:
+    Console.WriteLine("Ansioso para o fim de semana.");
+    break;
+}

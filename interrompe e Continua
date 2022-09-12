@@ -1,0 +1,50 @@
+Você já viu que o break Foi usado para "saltar" de uma switch declaração.
+
+o break também pode ser usada para sair de um loop .
+
+Este exemplo salta para fora do loop quando i é igual a 4 :
+
+Exemplo :
+
+for (int i = 0; i < 10; i++) 
+{
+  if (i == 4) 
+  {
+    break;
+  }
+  Console.WriteLine(i);
+}
+
+Continuar
+
+o continue interrompe uma iteração no loop, se ocorrer uma condição especificada, e continua com a próxima iteração no loop.
+
+Este exemplo ignora o valor de 4 :
+
+Exemplo :
+
+for (int i = 0; i < 10; i++) 
+{
+  if (i == 4) 
+  {
+    continue;
+  }
+  Console.WriteLine(i);
+}
+ 
+Interromper e continuar no loop while
+
+Você também pode usar breake continueem loops while :
+
+Exemplo de intervalo :
+
+int i = 0;
+while (i < 10) 
+{
+  Console.WriteLine(i);
+  i++;
+  if (i == 4) 
+  {
+    break;
+  }
+}

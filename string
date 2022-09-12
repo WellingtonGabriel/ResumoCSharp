@@ -72,3 +72,45 @@ A solução para evitar esse problema é usar o caractere de escape de barra inv
 O caractere de escape de barra invertida (\) transforma caracteres especiais em caracteres de string:
 
 Os caracteres de escape são :
+
+1 - Citação única
+
+ É representado pelo simbolo \' ,ou seja, '
+
+ exemplo :
+
+// o codigo abaixo,após ser executado,ira dizer que a pessoa está bem,ultilizando o caractere de escape apostrofo (')
+
+ string txt = "It\'s alright.";
+
+ 2 - Citação dupla
+
+ É representado pelo simbolo \" ,ou seja, "
+
+ exemplo :
+
+// o codigo abaixo,após ser executado,ira dizer que algumas pessoas sao os chamados vikings do norte,ultilizando o caractere de escape aspas ("")
+
+ string txt = "We are the so-called \"Vikings\" from the north.";
+
+ 3 - Barra invertida
+
+ É representado pelo simbolo \\ ,ou seja, \
+
+ exemplo :
+
+ // o codigo abaixo,após ser executado,ira dizer que esta tudo bem,ultilizando o caractere de escape barra (\\)
+
+ string txt = "The character \\ is called backslash.";
+
+ 4 - Nova linha
+
+ É representado pelo simbolo \n
+
+ 5 - aba
+
+ É representado pelo simbolo \t
+
+ 6 - retrocesso
+
+ É representado pelo simbolo \b
